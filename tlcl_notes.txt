@@ -29,7 +29,7 @@ The following commands are most used to navigate the file system in Linux:
 
 Linux organizes its files in a "Heirarchial directory structure".
 - organized in a tree-like pattern of directories
-- the first directory in the file systems is the "root" directory.
+- the first directory in the file system is the "root" directory.
 - the root contains files and subdirectories, which contains more files, etc
 - Linux always has a single file system tree, regardless of how many drives
   or storage devices are attached. Storage devices are "mounted" at various

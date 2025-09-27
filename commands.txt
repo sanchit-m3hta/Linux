@@ -1,0 +1,19 @@
+Commands will be enclosed in [command]
+Parameters will be enclosed in <parameter>
+
+[date]: display the current time and date
+[uptime]: display how long the system has been running and the average
+          number of processes running over various periods of time.
+[df]: current amount of free space on disk drives
+[free]: current amount of free memory
+[exit] or "control + d": to quit terminal
+[pwd]: Print name of current working directory
+[cd]: Change directory
+[ls]: List directory contents
+[cd]: changes the working directory to your home directory
+[cd -]: changes the working directory to the prev working directory
+[cd ~<user_name>]: Changes the working directory to the home directory of 
+                 user_name
+[ls -a]: to list filenames that begin with a period (they get hidden)
+[file]: Determine file type
+[less]: View file contents
