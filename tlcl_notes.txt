@@ -1,0 +1,54 @@
+These are notes for "The Linux Command Line 6th Internet Edition"
+Date: Sep 27, 2025
+Author: Sanchit Mehta
+
+------------------------Part 1 - Learning the Shell------------------------
+
+The sehll is a program that takes keyboard commands and passes them to the
+operating system to carry out.
+Linux comes with "bash" which stands for "Bourne Again SHell", which is an
+enchanced replacement for sh.
+
+In the following content:
+- Commands will be enclosed in [command]
+- Parameters will be enclosed in <parameter>
+
+[date]
+[uptime]
+[df]: current amount of free space on disk drives
+[free]: current amount of free memory
+[exit] or "control + d": to quit terminal
+
+
+---------------------------Part 2 - Navigation------------------------------
+
+The following commands are most used to navigate the file system in Linux:
+[pwd]: Print name of current working directory
+[cd]: Change directory
+[ls]: List directory contents
+
+Linux organizes its files in a "Heirarchial directory structure".
+- organized in a tree-like pattern of directories
+- the first directory in the file systems is the "root" directory.
+- the root contains files and subdirectories, which contains more files, etc
+- Linux always has a single file system tree, regardless of how many drives
+  or storage devices are attached. Storage devices are "mounted" at various
+  points on the tree.
+
+-----Absolute Pathnames-----
+"/": is the root directory
+"/home/<username>": is where most of the user's stuff will be (eg. Desktop)
+"/usr/bin": Where most of the system's programs are installed
+
+-----Relative Pathnames-----
+".": notation refers to the working directory
+"..": notation refers to the working directory's parent.
+
+shortcuts:
+[cd]: changes the working directory to your home directory
+[cd -]: changes the working directory to the prev working directory
+[cd ~<user_name>]: Changes the working directory to the home directory of 
+                 user_name
+
+[ls -a]: to list filenames that begin with a period (they get hidden)
+
